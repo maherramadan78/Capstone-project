@@ -1,28 +1,26 @@
 // mobile menu
-const menuBar = document.getElementById('menu_bar');
-const times = document.getElementById('close_menu');
-const hamburgerBtn = document.getElementById('menuBarImg');
-const closeBar = document.getElementById('close_bar');
-const lists = document.getElementById('menu_list');
-const hiddenScrol = document.getElementById('hideOverflow');
-let isDisplay = true;
+/* eslint-disable linebreak-style */
+document.querySelector('.navbars').addEventListener('click', (e) => {
+  // alert('Click on hamburger')
+  document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:visible');
+  e.preventDefault();
+});
 
-menuBar.addEventListener('click', () => {
-  if (isDisplay) {
-    hamburgerBtn.style.display = 'none';
-    times.style.display = 'block';
-    closeBar.classList.add('icon-menu');
-    lists.classList.replace('navis', 'js-nav-list');
-    hiddenScrol.classList.add('hide-scroll');
-    isDisplay = false;
-  } else {
-    hamburgerBtn.style.display = 'block';
-    times.style.display = 'none';
-    closeBar.classList.replace('icon-menu', 'nav-menu');
-    lists.classList.replace('js-nav-list', 'navis');
-    hiddenScrol.classList.remove('hide-scroll');
-    isDisplay = true;
-  }
+document.querySelector('.mobile-menu-close').addEventListener('click', (e) => {
+  document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility: hidden');
+  e.preventDefault();
+});
+
+document.querySelector('.burger-icon-single').addEventListener('click', () => {
+  document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
+});
+
+document.querySelector('.burger-icon-single').addEventListener('click', () => {
+  document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
+});
+
+document.querySelector('.burger-icon-single').addEventListener('click', () => {
+  document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
 });
 
 // Feautre Speaker
@@ -51,7 +49,7 @@ const data = [
     title: 'Julia Leda',
     description: 'Berkman Professor of Entrepreneural Legal Studies at Harvard Law School',
     linkImg: 'images/speaker_04.png',
-    more: 'Benkler Studies commoms-based peer production, and puublished his seminar book The Wealth of Networks in 2006.',
+    more: 'Benkler Studies commoms-based peer production, and published his seminar book The Wealth of Networks in 2006.',
   },
   {
     title: 'Lilia Tretikov',
