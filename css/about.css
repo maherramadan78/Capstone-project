@@ -225,6 +225,7 @@
     flex-direction: column;
     width: 80%;
     }
+
     .past-bootcamp-images,
     .past-bootcamp-images2 {
     width: 100%;
@@ -233,22 +234,33 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: var(--sec-color);
     }
+    
     .past-bootcamp-images {
-    background-image: url('images/workshop1.png');
+     
     }
     .past-bootcamp-images2 {
-    background-image: url('images/workshop2.png');
+    
     }
+
     .past-img {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: initial;
     height: inherit;
-    background-color: var(--sec-color);
+   
     }
+
+    .loscabos-images {
+      width: 100%;
+      height: 100%;
+      filter: opacity(0.3);  
+    }
+    
     .year,
     .abt-it {
     color: #fff;
@@ -256,7 +268,9 @@
     font-size: 30px;
     line-height: 42px;
     margin-bottom: 8px;
+    position: absolute;
     }
+
     .abt-it {
     font-size: 14px;
     }
@@ -392,20 +406,27 @@
     font-weight: 800;
     font-size: 12px;
     }
-    .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px;
-    }
-    .footer-logo {
-    height: 50px;
-    }
-    .footer-logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    }
+   
+     .footer {
+  justify-content: center;
+  background-color: #fff;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  }
+  
+  .footer-logo {
+  height: 6.25rem;
+  margin-right: 20px;
+  }
+  
+  .logo-name-footer {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #f3f3f3;
+  }
     
     .copyright {
     font-family: var(--tertiary-font);
@@ -420,6 +441,16 @@
     .mobile-menu-container {
     display: none;
     }
+
+    .about-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 20px;
+      text-align: center;
+  }
+
     .mobile-menu-container {
         position: fixed;
         top: 0;
@@ -461,9 +492,15 @@
     z-index: 100;
     }
     
-    .navis {
-    display: flex;
-    flex-direction: center;
+    .footer {
+      color: #3d4047;
+    }
+  
+    .logo-name-footer {
+      margin-top: 30px;
+      font-size: 20px;
+      color: #3d4047;
+      margin-left: 20px;
     }
     
     .nav-link {
@@ -488,10 +525,11 @@
     }
     
     .header {
-    background-color: #fff;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    }
+      background-color: #fff;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row-reverse;
+      }
     
     .twitter-logo {
     height: 15px;
@@ -509,12 +547,17 @@
     display: none;
     }
 
+    .mobile-menu-container {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      }
+
     .about-title {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-left: 150px;
     }
 
     
@@ -577,39 +620,44 @@
     display: none;
     }
     
-    .mobile-menu-container {
-    display: none;
-    }
     .js-nav-list {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    height: 40px;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    padding: 10px;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      height: 40px;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      padding: 10px;
+      }
+      
+    .menu-close-button{
+      display: none;
     }
     
     .navbars {
     width: 60%;
     }
-    
+   
     .navis {
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    }
-    
-    .nav-link {
-    text-decoration: none;
-    font-family: var(--tertiary-font);
-    font-weight: 500;
-    font-size: 12px;
-    color: gray;
-    }
+      height: 40px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      list-style: none;
+      gap: 50px;
+  
+      
+      }
+      
+      .nav-link {
+      text-decoration: none;
+      font-family: var(--tertiary-font);
+      font-weight: 500;
+      font-size: 12px;
+      color: gray;
+      }
+      
     
     .abt-nav,
     .wt-nav {
@@ -644,7 +692,8 @@
     }
     
     .description-paragraph {
-        margin-left: 30px;
+       margin-top: 10px;
+       text-align: center;
     }
 
     .programs {
@@ -795,7 +844,8 @@
     
     .footer-logo {
     height: 6.25rem;
-    margin-right: 20px;
+    margin-right: 25px;
+    margin-top: 15px;
     }
     
     .footer-logo img {
