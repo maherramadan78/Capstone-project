@@ -85,7 +85,7 @@ title, description, linkImg, more,
 
 const speakersHTML = `
 <div class="speaker speaker-1">
-<div class="img${counter + 1}"></div>
+<div class="image${counter + 1}"></div>
 <div class="sp-${counter + 1}-details">
 <h3 class="sp-name">${title}</h3>
 <p class="sp-details">
@@ -100,7 +100,7 @@ ${more}
 `;
 
 featureSpeakerSection.insertAdjacentHTML('beforeend', speakersHTML);
-document.querySelector(`.img${counter + 1}`).style.backgroundImage = `url("${linkImg}")`;
+document.querySelector(`.image${counter + 1}`).style.backgroundImage = `url("${linkImg}")`;
 // Set background image dynamically
 counter += 1;
 });

@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 :root {
     --pry-color: #272a31;
     --sec-color: #ec5242;
     --tertiary-color: #d3d3d3;
-    --pry-font: 'COCOGOOSE', sans-serif;
+    --pry-font: 'Montserrat', sans-serif;
+
     --sec-font: 'Lato', sans-serif;
-    --tertiary-font: 'Poppins', sans-serif;
+    --tertiary-font: 'Montserrat', sans-serif;
+
     }
     
     * {
@@ -71,11 +75,9 @@
     font-weight: 100;
   }
 
-  .title-about {
-
-
-  }
-
+ .aboutpage-small-title {
+    margin-right: 80px;
+ }
 
     .homepage-big-title {
     font-size: 50px;
@@ -429,6 +431,9 @@
         padding: 30px;
         }
 
+        .logo-mexico {
+            display: none;
+          }
     
     .social-media {
     display: none;
@@ -503,6 +508,21 @@
     .burger-icon {
     display: none;
     }
+
+    .about-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 150px;
+    }
+
+    
+  .logo-mexico {
+    width: 80px;
+    margin-top: 0px;
+
+  }
     
     .social {
     display: flex;
@@ -714,6 +734,7 @@
     display: flex;
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
     }
     
     .person {
