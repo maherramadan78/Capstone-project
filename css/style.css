@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+}
 
 :root {
   --pry-color: #272a31;
@@ -17,7 +22,7 @@
   }
   
   .burger-icon {
-  margin: 50px;
+  margin: 25px;
   }
   
   .burger-icon-single {
@@ -55,9 +60,8 @@
   }
   
   .home-page {
-  padding-right: 20px;
-  padding: 30px;
-  margin-left: 20px;
+  padding: 100px 30px;
+  background-image: url(../img/mobile_bg.png)
   }
 
   .homepage-small-title {
@@ -67,6 +71,7 @@
 
   .homepage-big-title {
   font-size: 50px;
+  font-family: 'COCOGOOSE', sans-serif;
   }
 
   .homepage-small-title,
@@ -76,6 +81,9 @@
 
   .homepage-paragraph {
   font-size: 18px;
+  background: white;
+  border: 1px solid lightgoldenrodyellow;
+  padding: 10px;
   }
 
   .homepage-event-date {
@@ -274,6 +282,11 @@
   grid-template-columns: 30% 1fr;
   margin-bottom: 38px;
   }
+
+  .speaker-1 {
+    padding: 10px;
+  }
+
   .image1,
   .image2 {
   height: 160px;
@@ -405,6 +418,10 @@
   }
   
   @media screen and (max-width: 767px) {
+    .header {
+      position: absolute;
+    }
+
   .mobile-menu-container {
   display: none;
   }
@@ -490,6 +507,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
+  padding: 20px;
   }
   
   .twitter-logo {
@@ -596,7 +614,6 @@
   list-style: none;
   gap: 50px;
   margin-right: 85px;
-  
   }
   
   .nav-link {
@@ -638,6 +655,10 @@
   .descriptions {
   width: 65%;
   }
+
+  .homepage-paragraph {
+    width: 50%;
+    }
   
   .programs {
   display: flex;
