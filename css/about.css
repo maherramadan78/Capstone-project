@@ -203,7 +203,7 @@
     justify-content: center;
     padding: 16px;
     }
-    .past-bootcamp {
+    .tour-city {
     font-family: var(--sec-font);
     font-style: normal;
     font-weight: 700;
@@ -557,10 +557,6 @@
     display: none;
     }
     
-    #close_bar {
-    
-    }
-    
     .mobile-menu-container {
     display: none;
     }
@@ -627,6 +623,10 @@
     width: 65%;
     }
     
+    .description-paragraph {
+        margin-left: 30px;
+    }
+
     .programs {
     display: flex;
     margin-bottom: 34px;

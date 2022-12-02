@@ -1,15 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capston Projects</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
-    <link rel="stylesheet" href="./css/about.css">
-    <title></title>
+  <!-- link swiper css -->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body id="hideOverflow">
     <div class="social">
@@ -17,34 +21,38 @@
             <i class="fa-brands fa-facebook-f"></i>
             <i class="fa-brands fa-twitter"></i>
         </div>
-        <ul class="top-nav">
+      <ul class="top-nav">
+          <li><a href="#" class="top-nav-link">English</a></li>
+          <li><a href="#" class="top-nav-link">My Page</a></li>
+          <li><a href="#" class="top-nav-link">Logout</a></li>
+      </ul>
+  </div>
+  <header class="header" id="header">
+      
+      <nav id="menu_bar" class="navbars">
+        <div class="burger-icon">
+          <div class="burger-icon-single"></div>
+          <div class="burger-icon-single"></div>
+          <div class="burger-icon-single"></div>
+        </div>
 
-            <li><a href="#" class="top-nav-link">English</a></li>
-            <li><a href="#" class="top-nav-link">My Page</a></li>
-            <li><a href="#" class="top-nav-link">Logout</a></li>
-        </ul>
+      <!-- mobile menu drawer -->
+      <div class="mobile-menu-container">
+        <button class="menu-close-button">X</button>
+        <ul id="menu_list" class="navis">
+              <li class="nav-item"><a href="./index.html" class="nav-link abt-nav">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Sponsor</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+              <li class="nav-item"><a href="#" class="nav-link wt-nav">WT Campaign</a></li>
+          </ul>
+      </nav>
+      <div class="logo-mexico">
+        <a href="index.html"><img class="logo-img" src="img/mexico.jpg" alt="Mexico icon"></a>
+      </div>
     </div>
-    <header class="header" id="header">
-        <div class="logo">
-        </div>
-        <nav id="menu_bar" class="navbars">
-            <div class="burger-icon">
-              <div class="burger-icon-single"></div>
-              <div class="burger-icon-single"></div>
-              <div class="burger-icon-single"></div>
-            </div>
-        <div class="mobile-menu-container">
-            <button class="menu-close-button">X</button>
-            <ul id="menu_list" class="navis">
-                  <li class="nav-item"><a href="./index.html" class="nav-link abt-nav">Home</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Sponsor</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">News</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link wt-nav">WT Campaign</a></li>
-              </ul>
-          </nav>
-        </div>
+    
     </header>
     <main>
         <section class="About-title">
@@ -57,8 +65,10 @@
                 </h1>
             </div>
             <div class="descriptions abt-dsc">
-                <p class="description">
-                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nobis aliquam accusamus sed at soluta dicta, itaque est aliquid sit velit. Quibusdam eum asperiores ipsa quaerat rem obcaecati earum dicta!
+                <p class="description-paragraph">
+                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+                    Suscipit nobis aliquam accusamus sed at soluta dicta, itaque est aliquid sit velit. <br>
+                     Quibusdam eum asperiores ipsa quaerat rem obcaecati earum dicta!
                 </p>
             </div>
             <p class="abt">
@@ -80,12 +90,13 @@
             </div>
         </section>
         <section class="see-past-section">
-            <h3 class="past-bootcamp">
-                See Our Past Bootcamp
+            <h3 class="tour-city">
+                See Our Tour in Mexico City.
             </h3>
             <div class="bt-line"></div>
             <p class="past-bootcamp-details">
-                Take a look at our last two universal bootcamps which took place in Lagos and Newyork.
+                Enjoy an unforgettable party in Los Cabos on a Catmaran as you sail the <br>
+                Sea of Cortez. And enjoy tasty fajitas on board and an open bar!
             </p>
             <div class="abt-past">
                 <div class="past-bootcamp-images">
