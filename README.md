@@ -179,7 +179,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Cindy Shin who design i have used for this application.
+I would like to thank Cindy Shin who designed. i have used for this application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
