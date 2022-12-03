@@ -43,14 +43,14 @@ more: 'Benkler Studies commoms-based peer production, and puublished his seminar
 title: 'Kilnam Chon',
 description: 'Director of Art Center Nabi and a board member Webtekhy',
 linkImg: 'img/speaker_02.png',
-more: `As the main venue for new media art production in Nigeria. Webtekhy promotes 
+more: `As the main venue for new media art production in Nigeria.Mexican tours promotes 
 cross-disciplinary collaboration and understanding among science technologies, humanities, and arts.`,
 },
 {
 title: 'SohYeong Noh',
 description: 'Director of Art Center Nabi and a board member Webtekhy',
 linkImg: './img/speaker_03.png',
-more: `As the main venue for new media art production in Nigeria. Webtekhy promotes cross-disciplinary
+more: `As the main venue for new media art production in  Mexico. Mexican tours promotes cross-disciplinary
 collaboration and understanding among science technologies, humanities, and arts.`,
 },
 {
@@ -63,7 +63,7 @@ more: 'Benkler Studies commoms-based peer production, and published his seminar 
 title: 'Lilia Tretikov',
 description: 'Lilia Tretikov Professor of Entrepreneural Legal Studies at Harvard Law School',
 linkImg: './img/speaker_05.png',
-more: `As the main venue for new media art production in Nigeria. Webtekhy promotes cross-disciplinary
+more: `As the main venue for new media art production in Nigeria. Mexican tours promotes cross-disciplinary
 collaboration and understanding among science technologies, humanities, and arts.`,
 },
 {
