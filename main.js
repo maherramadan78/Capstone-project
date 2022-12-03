@@ -1,3 +1,5 @@
+// mobile menu
+/* eslint-disable linebreak-style */
 const menu = document.querySelector('.mobile-menu-container');
 const menuOpenButton = document.querySelector('.burger-icon');
 const menuCloseButton = document.querySelector('.menu-close-button');
@@ -12,23 +14,7 @@ menuCloseButton.addEventListener('click', () => {
   menuCloseButton.style.display = 'flex';
 });
 
-document.querySelector('.mobile-menu-close').addEventListener('click', (e) => {
-  document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility: hidden');
-  e.preventDefault();
-});
-
-document.querySelector('.burger-icon-single').addEventListener('click', () => {
-  document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
-});
-
-document.querySelector('.burger-icon-single').addEventListener('click', () => {
-  document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
-});
-
-document.querySelector('.burger-icon-single').addEventListener('click', () => {
-  document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
-});
-
+// Feautre Speaker
 const data = [
   {
     title: 'Yochai Benkler',
@@ -38,16 +24,16 @@ const data = [
   },
   {
     title: 'Kilnam Chon',
-    description: 'Director of Art Center Nabi and Mexican tours',
+    description: 'Director of Art Center Nabi and a board member Webtekhy',
     linkImg: 'img/speaker_02.png',
-    more: `As the main venue for new media art production in Mexico.Mexican tours promotes 
+    more: `As the main venue for new media art production in Nigeria. Webtekhy promotes 
 cross-disciplinary collaboration and understanding among science technologies, humanities, and arts.`,
   },
   {
     title: 'SohYeong Noh',
-    description: 'Director of Art Center Nabi and Mexican tours',
+    description: 'Director of Art Center Nabi and a board member Webtekhy',
     linkImg: './img/speaker_03.png',
-    more: `As the main venue for new media art production in  Mexico. Mexican tours promotes cross-disciplinary
+    more: `As the main venue for new media art production in Nigeria. Webtekhy promotes cross-disciplinary
 collaboration and understanding among science technologies, humanities, and arts.`,
   },
   {
@@ -60,7 +46,7 @@ collaboration and understanding among science technologies, humanities, and arts
     title: 'Lilia Tretikov',
     description: 'Lilia Tretikov Professor of Entrepreneural Legal Studies at Harvard Law School',
     linkImg: './img/speaker_05.png',
-    more: `As the main venue for new media art production in Mexico. Mexican tours promotes cross-disciplinary
+    more: `As the main venue for new media art production in Nigeria. Webtekhy promotes cross-disciplinary
 collaboration and understanding among science technologies, humanities, and arts.`,
   },
   {
@@ -71,6 +57,7 @@ collaboration and understanding among science technologies, humanities, and arts
   },
 ];
 
+// Creating the feature speaker section dynamically
 const featureSpeakerSection = document.querySelector('.speakers-details');
 let counter = 0;
 
