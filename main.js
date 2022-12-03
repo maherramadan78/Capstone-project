@@ -2,7 +2,7 @@
 /* eslint-disable linebreak-style */
 const menu = document.querySelector('.mobile-menu-container');
 const menuOpenButton = document.querySelector('.burger-icon');
-const menuCloseButton = document.querySelector('.menu-close-button')
+const menuCloseButton = document.querySelector('.menu-close-button');
 
 menuOpenButton.addEventListener('click', () => {
 menu.style.display = 'flex';
