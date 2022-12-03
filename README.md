@@ -8,7 +8,8 @@ capston project website
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://www.loom.com/share/62041ade22fb41d29dfd46984d370bbc)
+[Live Demo Link](https://www.loom.com/share/404dfb258692414d9e5bccc10b82129f)
+
 
 
 ## Getting Started
@@ -66,7 +67,7 @@ git push
 
 Maher Ramadan
 
-- GitHub: [@githubhandle]()
+- GitHub: [@githubhandle](https://github.com/maherramadan78/Capstone-project)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/maher-ramadan-655623a4/)
 
 
