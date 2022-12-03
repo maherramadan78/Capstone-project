@@ -1,5 +1,3 @@
-// mobile menu
-/* eslint-disable linebreak-style */
 const menu = document.querySelector('.mobile-menu-container');
 const menuOpenButton = document.querySelector('.burger-icon');
 const menuCloseButton = document.querySelector('.menu-close-button');
@@ -30,8 +28,6 @@ document.querySelector('.burger-icon-single').addEventListener('click', () => {
 document.querySelector('.burger-icon-single').addEventListener('click', () => {
   document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
 });
-
-// Feature Speaker
 
 const data = [
   {
@@ -75,7 +71,6 @@ collaboration and understanding among science technologies, humanities, and arts
   },
 ];
 
-// Creating the feature speaker section dynamically
 const featureSpeakerSection = document.querySelector('.speakers-details');
 let counter = 0;
 
