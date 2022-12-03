@@ -12,7 +12,7 @@ menuCloseButton.style.display = 'flex';
 menuCloseButton.addEventListener('click', () => {
 menu.style.display = 'none';
 menuCloseButton.style.display = 'flex';
-})
+});
 
 //document.querySelector('.mobile-menu-close').addEventListener('click', (e) => {
 //document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility: hidden');
