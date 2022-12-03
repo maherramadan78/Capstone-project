@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-
 :root {
   --pry-color: #272a31;
   --sec-color: #ec5242;
@@ -55,7 +54,7 @@
 
 .homepage-big-title {
   font-size: 50px;
-  font-family: 'cocogoose', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .homepage-small-title,
