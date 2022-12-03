@@ -24,16 +24,16 @@ const data = [
   },
   {
     title: 'Kilnam Chon',
-    description: 'Director of Art Center Nabi and a board member Webtekhy',
+    description: 'Director of Art Center Nabi and a board member Mexican tours',
     linkImg: 'img/speaker_02.png',
-    more: `As the main venue for new media art production in Nigeria. Webtekhy promotes 
+    more: `As the main venue for new media art production in Mexico. Mexican tours promotes 
 cross-disciplinary collaboration and understanding among science technologies, humanities, and arts.`,
   },
   {
     title: 'SohYeong Noh',
-    description: 'Director of Art Center Nabi and a board member Webtekhy',
+    description: 'Director of Art Center Nabi and a board member Mexican tours',
     linkImg: './img/speaker_03.png',
-    more: `As the main venue for new media art production in Nigeria. Webtekhy promotes cross-disciplinary
+    more: `As the main venue for new media art production in Mexico. Mexican tours promotes cross-disciplinary
 collaboration and understanding among science technologies, humanities, and arts.`,
   },
   {
@@ -46,7 +46,7 @@ collaboration and understanding among science technologies, humanities, and arts
     title: 'Lilia Tretikov',
     description: 'Lilia Tretikov Professor of Entrepreneural Legal Studies at Harvard Law School',
     linkImg: './img/speaker_05.png',
-    more: `As the main venue for new media art production in Nigeria. Webtekhy promotes cross-disciplinary
+    more: `As the main venue for new media art production in Mexico. Mexican tours promotes cross-disciplinary
 collaboration and understanding among science technologies, humanities, and arts.`,
   },
   {
@@ -57,7 +57,6 @@ collaboration and understanding among science technologies, humanities, and arts
   },
 ];
 
-// Creating the feature speaker section dynamically
 const featureSpeakerSection = document.querySelector('.speakers-details');
 let counter = 0;
 
@@ -84,6 +83,5 @@ ${more}
 
   featureSpeakerSection.insertAdjacentHTML('beforeend', speakersHTML);
   document.querySelector(`.image${counter + 1}`).style.backgroundImage = `url("${linkImg}")`;
-  // Set background image dynamically
   counter += 1;
 });
