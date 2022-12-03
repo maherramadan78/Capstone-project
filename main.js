@@ -14,24 +14,24 @@ menuCloseButton.addEventListener('click', () => {
   menuCloseButton.style.display = 'flex';
 });
 
-// document.querySelector('.mobile-menu-close').addEventListener('click', (e) => {
-// document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility: hidden');
-// e.preventDefault();
-// });
+document.querySelector('.mobile-menu-close').addEventListener('click', (e) => {
+ document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility: hidden');
+ e.preventDefault();
+ });
 
-// document.querySelector('.burger-icon-single').addEventListener('click', () => {
-// document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
-// });
+ document.querySelector('.burger-icon-single').addEventListener('click', () => {
+ document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
+ });
 
-// document.querySelector('.burger-icon-single').addEventListener('click', () => {
-// document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
-// });
+ document.querySelector('.burger-icon-single').addEventListener('click', () => {
+ document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
+ });
 
-// document.querySelector('.burger-icon-single').addEventListener('click', () => {
-// document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
-// });
+ document.querySelector('.burger-icon-single').addEventListener('click', () => {
+ document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
+ });
 
-// Feautre Speaker
+ Feature Speaker
 const data = [
   {
     title: 'Yochai Benkler',
