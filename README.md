@@ -1,88 +1,199 @@
-# Capstone-project
-capston project website
-## html and styles css & javascript
+<a name="readme-top"></a>
 
-- english language
-- visual code editor
-- html , css, javascript
+<div align="center">
 
-## Live Demo (if available)
-[Live Demo Link](https://www.loom.com/share/404dfb258692414d9e5bccc10b82129f)
-https://github.com/maherramadan78/Capstone-project.io
+  <img src="https://raw.githubusercontent.com/microverseinc/readme-template/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Getting Started
+  <h3><b>Microverse README Template</b></h3>
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Mexican tours & travel <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[Mexican tours & travel]** is an web site to provide the tourism cities and location in Mexico.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+  <ul>
+    <li>Html</li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Dynamic data processing]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://maherramadan78.github.io/Capstone-project/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 video introduction <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](add video link)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-To get a local copy up and running follow these simple example steps.
+
+
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-creat a repositori in git hub , clone it on the v code and create branche and switch from the master to the capston projects branch
-add index.html.
-add about.html
-add styles.css.
-add about.css.
-add javascript file main.js
-add  files readme , linters file , stylelintrc.json, package.json.
-coding the html code and css style to make the desktop version portfolio
 
-
+In order to run this project you need:
+Node.js
 ### Setup
-after that i created capston projects branch  , i started to make the web design.
-using the html codes and the css style.
+
+Clone this repository to your desired folder:
+
+git clone git@github.com:maherramadan78/Capstone-project.git
 
 ### Install
-I clone it by using the git bash inside the folder of my portfolio.
+
+Install this project with:
+
+npm install
+
 ### Usage
-i have made my capston project by html and styles css and javascript files  creating the index.html about.html  and styles.css files & about.css.
-in the main.js and main.js I added the code of java script to make the menu berger  working normaly, so when its mobile version , its looks like the menu as three lines , so you click on it and you can see the menu items.
-Each of these pages should have versions for 2 different screen sizes:
-Mobile: up to 768px wide.
-Desktop: 768px or wider.
 
-Links:
-The home page should have a link in the menu to the about page.
-The logo in the header links to the home page.
+To run the project, execute the following command:
 
-Mobile menu:
-When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.
-There are no guidelines for the mobile menu in the docs, but you should implement it so it is consistent with the design (colors, typography, spacings, etc.).
-The mobile menu should have a close (X) button that closes the menu.
+npm starts
 
-Dynamic page
-The section "Featured speakers" should be created dynamically in JavaScript.
-You should use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.
-
-I added all the files readme , linters file , stylelintrc.json, package.json.
 ### Run tests
-i used the command git add .
-git commit
-git push
 
-## Authors
+To run tests, run the following command:
 
-Maher Ramadan
+npm test
 
-- GitHub: [@githubhandle](https://github.com/maherramadan78/Capstone-project)
+### Deployment
+
+https://maherramadan78.github.io/Capstone-project/
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/maherramadan78)
+
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/maher-ramadan-655623a4/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- FUTURE FEATURES -->
 
-mentor guide me how to fix the errors by stylelint command.
-using background color 
-google .
-you tube tutorials videos. 
+## 🔭 Future Features <a name="future-features"></a>
 
-## Acknowledgments
+> Describe 1 - 3 features you will add to the project.
 
-- I used my own code
-- I saw many tutorials videos how to create a portfolio website , si i took  professional ideas.
-- google , awesome fonts.
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/maherramadan78/Capstone-project/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank Cindy Shin who design i have used for this application.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
